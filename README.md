@@ -1,6 +1,7 @@
 ## Java template project
 This is quick start java gradle project
 Actions:
+
     - clone it:  git clone https://github.com/vmelnychuk/java-template-project.git
     - remove remote:  git remote remove origin
     - add new remote:  git remote add origin NEW_ORIGIN
