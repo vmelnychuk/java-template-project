@@ -7,3 +7,7 @@ Actions:
     - add new remote:  git remote add origin NEW_ORIGIN
     - push master:  git push -u origin master
     - git all stuff:  git push -u origin --all
+
+Gradle:
+    - build.gradle: change projectName to name of your project
+    - chmod +x gradlew

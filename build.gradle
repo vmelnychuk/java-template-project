@@ -12,8 +12,10 @@ task wrapper(type: Wrapper) {
     gradleVersion = '2.7'
 }
 
+def projectName = "PROJECT-NAME"
+
 jar {
-    baseName = 'collections'
+    baseName = projectName
     manifest {
         attributes 'Main-Class': 'App'
     }
