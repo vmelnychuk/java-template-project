@@ -1,0 +1,15 @@
+#!/bin/sh
+# name: startup
+# this start-up script that sets needed origin for repository
+echo "starting..."
+git remote remove origin
+echo "Enter name of new origin: \c"
+read NEW_ORIGIN
+if [ "$NEW_ORIGIN" != ""  ]; then
+    echo "do...."
+    git remote add origin $NEW_ORIGIN
+    git push -u origin master
+    git push -u origin --all
+fi
+chmod +x gradlew
+echo "startup is finished"
